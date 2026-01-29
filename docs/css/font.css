@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/PIXI.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Default font for body */
+body {
+    font-family: "PIXI" !important;
+}
+
+/* secondary font */
+.secondary-font,
+#secondary-font {
+    font-family: "PIXI";
+}
+
+/* primary font */
+.primary-font,
+#primary-font {
+    font-family: "PIXI";
+}
+
+/* Default font */
+.default-font,
+#default-font {
+    font-family: "PIXI";
+}
