@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313"
+baseURL: "https://imato.github.io/contacts"
 theme: hugo-profile
 
 # defaultContentLanguage: ru
@@ -84,7 +84,7 @@ Menus:
 
 params:
   title: ""
-  subtitle: Профиль, контакты, блог
+  subtitle: Profile and contacts
   #description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/icon/favicon-32x32.png"
