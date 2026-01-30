@@ -52,13 +52,14 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#      enable : false
     #
     #- identifier: gallery
     #  name: Gallery
@@ -161,20 +162,22 @@ params:
     enable: true
     intro: "Hi! I`m"
     title: "Alexey Varentsov"
-    subtitle: "Backend developer and administrator"
+    subtitle: "Backend developer, administrator and consultant"
     content: ""
     image: /images/me-2.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Contacts"
       url: "#contact"
-      download: true
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fa fa-envelope
+          url: mailto:alexey.varentsov@gmail.com 
         - icon: fa-brands fa-telegram
           url: https://t.me/geroinych      
 
@@ -183,10 +186,10 @@ params:
     enable: true
     title: "About"
     image: "/images/me.jpeg"
-    content: I am an enterprise application developer. I will be happy to help you implement a new project. Contact me.
+    content: I am an enterprise application developer. I will be happy to help you implement yours dreams. Contact me.
     skills:
       enable: true
-      title: "Tools:"
+      title: "Tools"
       items:
         - "HTML"
         - "CSS"
@@ -220,9 +223,9 @@ params:
       - company: "Your Best Company"
         companyUrl: "https://your_company.com"
         jobs:
-          - name: "Developer or administrator"
+          - name: "Member of your dream team"
             date: "Now"
-            content: Development, support and modernization of your personnel and equipment optimization system. I will help you make something truly good and convenient for many people.
+            content: Development, support or modernization your IT system. I will help you make something truly good and convenient for many people.
             info:
               content: Independent developer or within your team
 
@@ -343,7 +346,6 @@ params:
       twitter: https://x.com/geroinych/
       instagram: https://instagram.com/geroinych/
       facebook: https://facebook.com/aleksey.varentsov
-      telegram: https://t.me/geroinych/
 
   # List pages like blogs and posts
   listPages:
