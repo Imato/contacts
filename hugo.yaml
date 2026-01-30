@@ -1,4 +1,4 @@
-baseURL: "https://imato.github.io/contacts"
+baseURL: "https://imato.github.io"
 theme: hugo-profile
 
 # defaultContentLanguage: ru
