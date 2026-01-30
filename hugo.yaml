@@ -161,7 +161,7 @@ params:
   hero:
     enable: true
     intro: "Hi! I`m"
-    title: "Alexey Varentsov"
+    title: "Alex"
     subtitle: "Backend developer, administrator and consultant"
     content: ""
     image: /images/me-2.jpeg
@@ -214,6 +214,7 @@ params:
         - "Git"
         - "Gitlab"
         - "JIRA/Cofluence"
+        - "PowerShell"
 
   # Experience
   experience:
@@ -234,7 +235,16 @@ params:
         jobs:
           - name: "Backend Developer"
             date: "January 2017 - October 2025"
-            content: "Development and administration of accounting systems and infrastructure monitoring for companies MAIL.RU, Odnoklassniki, VKontakte. Creation of storages on MS SQL Server, Postgres, NoSQL databases (MongoDB, Casandra, Timeseries, etc), BackEnd on ASP.NET/Core, nodeJs, a little FrontEnd (Angular+React), Blazor, Kafka for messaging. Transferring a database from MS SQL to Postgres. Transferring existing applications from the old stack (ASP.NET + js libs) to modern platforms (.net core + react, angular), creating new applications."
+            content: |
+              - Designed and developed accounting systems, infrastructure monitoring, equipment tracking, and private cloud solutions for MAIL.RU, Odnoklassniki, and VKontakte services  
+              - Built backend APIs using ASP.NET/Core, with frontend implementation in Angular, React, and Blazor  
+              - Administered and scaled high-load MS SQL Server databases (terabyte-scale data, high-performance ETL processes)  
+              - Ensured high availability and fault tolerance across various DBMS instances and underlying hosts  
+              - Led zero-downtime database migrations from MS SQL Server to PostgreSQL, including schema, data, stored procedures transfer, and performance optimization for the target RDBMS  
+              - Designed and maintained data warehouses on MS SQL combined with NoSQL solutions (MongoDB, Cassandra, etc.), integrated with Kafka for real-time data streaming  
+              - Automated routine DBA operations (backups, index maintenance, alerting, health checks) using PowerShell, SQL Agent, and .NET Core  
+              - As a backend developer, migrated legacy applications from outdated stack (ASP.NET + legacy JS) to modern .NET Core + React/Angular/Blazor, ensuring full database compatibility and seamless transition  
+              - Optimized critical queries and infrastructure performance to handle peak loads in large-scale social network environments
             info:
               content: Development, support, administration of 5 applications in team  of 2-5 members
 
@@ -243,7 +253,10 @@ params:
         jobs:
           - name: "Senior SQL Server Developer"
             date: "July 2015 - January 2017"
-            content: Development of a centralized data warehouse for Kaspersky Lab, creation of procedures for loading and enriching information from various sources using the Microsoft technology stack (MS SQL Server, SSIS, .NET, Power Shell, Sharepoint).
+            content: |
+              - Architected and implemented centralized Enterprise Data Warehouse (DWH) on MS SQL Server + SSIS for Kaspersky Lab  
+              - Developed complex ETL pipelines (data loading, enrichment, CDC, SCD Type 2) from 10+ heterogeneous sources, with integration to .NET components and SharePoint  
+              - Delivered high performance and fault tolerance for a multi-terabyte data warehouse
             info:
               content: Create new data transforamtion and integration project in a team of 5 members
 
@@ -252,7 +265,13 @@ params:
         jobs: 
           - name: "BI Developer"
             date: "June 2011 - July 2015"
-            content: The company is a representative of the brands Starbucks, Mothercare, etc. in Russia. Development of an analytical system for monitoring the performance of the company and personnel using the Microsoft SQL Server 2005-2012 platform (SSIS, SSAS, SSRS); performance optimization; implementation and development of reporting based on SAP Business Objects (WEBI and Dashboards); server administration; conducting trainings.
+            content: | 
+              - Built analytical platform on SQL Server 2005 (SSIS + SSAS + SSRS)  
+              - Migrated systems to SQL Server 2012, ensuring smooth upgrade and compatibility  
+              - Optimized SSAS cubes and queries, significantly accelerating key reports execution  
+              - Administered Windows servers hosting database infrastructure  
+              - Implemented reporting solutions using SAP Business Objects (WEBI, Dashboards)  
+              - Conducted training sessions for analysts and business users
             info:
               content: Create DWH in a team of 2 members
 
@@ -261,7 +280,13 @@ params:
         jobs:
         - name: "Business System Expert"
           date: "August 2005 - June 2011"
-          content: Development and support of reporting systems based on Microsoft SQL Server 2000 (AS, DTS, Database, RS); migration to Microsoft SQL Server 2005 (SSIS, SSAS, SSRS); database development and optimization; server administration; consulting users, conducting trainings and classes on data analysis.
+          content: | 
+            - Maintained reporting systems based on Microsoft SQL Server 2000 (Analysis Services, DTS, Database Engine, Reporting Services)  
+            - Led full migration of DWH to Microsoft SQL Server 2005 (SSIS, SSAS, SSRS) with minimal disruption  
+            - Designed and developed new data warehouses and reports for large-scale business operations  
+            - Optimized MS SQL-based systems for improved performance and efficiency  
+            - Automated routine administrative procedures and maintenance tasks  
+            - Ensured high availability and disaster recovery for applications running on MS SQL and Windows Server
           info:
               content: Create DWH applications in a team of 2 members
 
@@ -270,7 +295,9 @@ params:
         jobs:
         - name: "IT specialist"
           date: "August 2004 - August 2005"
-          content: Personal communication systems. Administration and support of network and Linux servers, Helpdesk, providing assistance to clients and users of the company.
+          content: |
+           - Administered and supported networks and Linux servers
+           - Provided technical support and assistance to clients and users of the internet service
         - info:
               content: A small team providing Internet 
 
