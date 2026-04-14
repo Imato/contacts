@@ -179,7 +179,7 @@ params:
         - icon: fa fa-envelope
           url: mailto:alexey.varentsov@gmail.com 
         - icon: fa-brands fa-telegram
-          url: https://t.me/geroinych      
+          url: https://t.me/geroinych  
 
   # About
   about:
