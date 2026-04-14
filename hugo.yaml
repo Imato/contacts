@@ -240,15 +240,16 @@ params:
           - name: "Backend Developer"
             date: "January 2017 - October 2025"
             content: |
-              - Designed and developed accounting systems, infrastructure monitoring, equipment tracking, and private cloud solutions for MAIL.RU, Odnoklassniki, and VKontakte services  
-              - Built backend APIs using ASP.NET/Core, with frontend implementation in Angular, React, and Blazor  
-              - Administered and scaled high-load MS SQL Server databases (terabyte-scale data, high-performance ETL processes)  
-              - Ensured high availability and fault tolerance across various DBMS instances and underlying hosts  
-              - Led zero-downtime database migrations from MS SQL Server to PostgreSQL, including schema, data, stored procedures transfer, and performance optimization for the target RDBMS  
-              - Designed and maintained data warehouses on MS SQL combined with NoSQL solutions (MongoDB, Cassandra, etc.), integrated with Kafka for real-time data streaming  
-              - Automated routine DBA operations (backups, index maintenance, alerting, health checks) using PowerShell, SQL Agent, and .NET Core  
-              - As a backend developer, migrated legacy applications from outdated stack (ASP.NET + legacy JS) to modern .NET Core + React/Angular/Blazor, ensuring full database compatibility and seamless transition  
-              - Optimized critical queries and infrastructure performance to handle peak loads in large-scale social network environments
+              - Designed and developed systems for asset tracking, infrastructure monitoring, and private cloud solutions across large-scale platforms (VK, Mail.ru, Odnoklassniki)  
+              - Built backend services using ASP.NET / .NET Core and frontend applications using Angular, React, and Blazor  
+              - Migrated legacy applications from ASP.NET + legacy JavaScript stack to modern .NET Core + React/Angular/Blazor architectures  
+              - Performed zero-downtime database migrations from MS SQL Server to PostgreSQL, including schema, data, and stored procedures optimization  
+              - Developed and maintained data storage systems using MS SQL Server and NoSQL databases (MongoDB, Cassandra), integrated with Kafka for real-time data processing  
+              - Automated routine operations (backups, index maintenance, alerting, health checks, deployments)  
+              - Optimized performance of critical queries and infrastructure for high-load environments  
+              - Worked in cross-functional roles: analyst, product owner, database developer, backend and frontend engineer, system administrator  
+              - Managed and supported 4–6 infrastructure applications simultaneously  
+              - Conducted code reviews, wrote unit tests, and maintained backlog
             info:
               content: Development, support, administration of 5 applications in team  of 2-5 members
 
@@ -258,9 +259,12 @@ params:
           - name: "Senior SQL Server Developer"
             date: "July 2015 - January 2017"
             content: |
-              - Architected and implemented centralized Enterprise Data Warehouse (DWH) on MS SQL Server + SSIS for Kaspersky Lab  
-              - Developed complex ETL pipelines (data loading, enrichment, CDC, SCD Type 2) from 10+ heterogeneous sources, with integration to .NET components and SharePoint  
-              - Delivered high performance and fault tolerance for a multi-terabyte data warehouse
+              - Developed centralized enterprise Data Warehouse (DWH) on MS SQL Server + SSIS for Kaspersky Lab  
+              - Designed complex ETL pipelines (data ingestion, enrichment, CDC, SCD) from 10+ data sources  
+              - Integrated DWH with .NET applications and SharePoint  
+              - Ensured high performance and fault tolerance for multi-terabyte data systems  
+              - Implemented integration layer based on business analyst specifications  
+              - Performed code reviews  
             info:
               content: Create new data transforamtion and integration project in a team of 5 members
 
@@ -270,12 +274,13 @@ params:
           - name: "BI Developer"
             date: "June 2011 - July 2015"
             content: | 
-              - Built analytical platform on SQL Server 2005 (SSIS + SSAS + SSRS)  
-              - Migrated systems to SQL Server 2012, ensuring smooth upgrade and compatibility  
-              - Optimized SSAS cubes and queries, significantly accelerating key reports execution  
-              - Administered Windows servers hosting database infrastructure  
-              - Implemented reporting solutions using SAP Business Objects (WEBI, Dashboards)  
-              - Conducted training sessions for analysts and business users
+              - Built enterprise analytics platform (DWH + reporting server) using SQL Server (SSIS, SSAS, SSRS) for major retail brands (Starbucks, Mothercare, MAC, The Body Shop, etc.)  
+              - Migrated systems to SQL Server 2012  
+              - Optimized OLAP cubes and queries, significantly improving reporting performance  
+              - Administered Windows servers  
+              - Implemented SAP BusinessObjects reporting (WEBI, Dashboards)  
+              - Trained business analysts  
+              - Led development, maintenance, administration, backlog management, and business requirements analysis in a small team 
             info:
               content: Create DWH in a team of 2 members
 
@@ -285,12 +290,13 @@ params:
         - name: "Business System Expert"
           date: "August 2005 - June 2011"
           content: | 
-            - Maintained reporting systems based on Microsoft SQL Server 2000 (Analysis Services, DTS, Database Engine, Reporting Services)  
-            - Led full migration of DWH to Microsoft SQL Server 2005 (SSIS, SSAS, SSRS) with minimal disruption  
-            - Designed and developed new data warehouses and reports for large-scale business operations  
-            - Optimized MS SQL-based systems for improved performance and efficiency  
-            - Automated routine administrative procedures and maintenance tasks  
-            - Ensured high availability and disaster recovery for applications running on MS SQL and Windows Server
+            - Developed reporting systems on Microsoft SQL Server (Analysis Services, DTS, Reporting Services)  
+            - Migrated DWH to SQL Server 2005 (SSIS, SSAS, SSRS)  
+            - Built DWH solutions and reports for production, warehouse, sales, and logistics departments  
+            - Optimized database performance  
+            - Automated routine processes  
+            - Ensured high availability of MS SQL and Windows Server systems  
+            - Performed roles including analyst, product owner, database developer, and system administrator 
           info:
               content: Create DWH applications in a team of 2 members
 
@@ -300,8 +306,8 @@ params:
         - name: "IT specialist"
           date: "August 2004 - August 2005"
           content: |
-           - Administered and supported networks and Linux servers
-           - Provided technical support and assistance to clients and users of the internet service
+            - Maintained and administered networks and Linux servers  
+            - Provided technical support to ISP clients 
         - info:
               content: A small team providing Internet 
 
