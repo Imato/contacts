@@ -180,6 +180,10 @@ params:
           url: mailto:alexey.varentsov@gmail.com 
         - icon: fa-brands fa-telegram
           url: https://t.me/geroinych  
+        - icon: fa-file-text-o
+          url: https://github.com/Imato/contacts/blob/main/static/files/cv_ru.md
+        - icon: fa-file-text-o
+          url: https://github.com/Imato/contacts/blob/main/static/files/cv_en.md
 
   # About
   about:
